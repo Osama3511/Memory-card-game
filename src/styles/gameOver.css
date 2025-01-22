@@ -1,0 +1,41 @@
+.game-over-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.game-over-text {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.restart-button {
+  padding: 10px 20px;
+  background-color: #ff6347; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #ff4500; 
+}
+
+.restart-button:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ff6347;
+}

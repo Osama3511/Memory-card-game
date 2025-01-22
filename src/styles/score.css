@@ -1,0 +1,33 @@
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  .score-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .score-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .score-value {
+    font-size: 1.5rem;
+    color: #4caf50;
+    font-weight: bold;
+  }
+  

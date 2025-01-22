@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/card.css"
 export default function Card({ src, onClick }) {
   const [isPressed, setIsPressed] = useState(false);
 
@@ -7,9 +8,9 @@ export default function Card({ src, onClick }) {
     setIsPressed(true);
   };
 
-  const cardStyle = {
-    height: "100px",
-    width: "100px",
-  };
-  return <img style={cardStyle} src={src} onClick={handleClick} />;
+  return (
+    <div className="card-container" onClick={handleClick} >
+      <img className="card-image" alt="card image" src={src} />
+    </div>
+  );
 }

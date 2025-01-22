@@ -1,3 +1,9 @@
+# Memory card game in react
+after learning about side effects and states in react I've decided to build a mini project to make sure I understand the concept so far..
+
+# live preview - https://legendarypokemonsmemorycardgame.netlify.app/
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

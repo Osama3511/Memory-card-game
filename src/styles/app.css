@@ -1,0 +1,30 @@
+.body {
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); 
+  gap: 20px;
+  padding: 20px;
+  justify-items: center; 
+}
+
+.card-item {
+  display: inline-block;
+  margin: 10px;
+}
